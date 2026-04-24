@@ -25,3 +25,5 @@ def footer_dashboard():
             </p>  
         </div>
     """, unsafe_allow_html=True)
+    
+    

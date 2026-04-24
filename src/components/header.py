@@ -14,19 +14,31 @@ def header_home():
     """, unsafe_allow_html=True)
 
 
+# def header_dashboard():
+#     logo_url = "https://i.ibb.co/YTYGn5qV/logo.png"
+    
+#     st.markdown(f"""
+#         <div style="display:flex; align-items:center; justify-content:center; gap:15px; margin-bottom: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+#             <img src='{logo_url}' style='height:80px;' />
+#             <div style="display:flex; flex-direction:column; justify-content:center;">
+#                 <h2 style='text-align:left; color:#5865F2; font-size: 2.2rem; font-weight: 800; margin: 0; line-height: 1.1;'>
+#                     SNAP CLASS
+#                 </h2>
+#             </div>
+#         </div>
+#     """, unsafe_allow_html=True)
+
+
+
+
 def header_dashboard():
+
     logo_url = "https://i.ibb.co/YTYGn5qV/logo.png"
     
     st.markdown(f"""
-        <div style="display:flex; align-items:center; justify-content:center; gap:15px; margin-bottom: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-            <img src='{logo_url}' style='height:80px;' />
-            <div style="display:flex; flex-direction:column; justify-content:center;">
-                <h2 style='text-align:left; color:#5865F2; font-size: 2.2rem; font-weight: 800; margin: 0; line-height: 1.1;'>
-                    SNAP CLASS
-                </h2>
-                <span style='text-align:left; color:#6B7280; font-size: 0.95rem; font-weight: 600; letter-spacing: 0.5px;'>
-                    Intelligent AI Attendance System
-                </span>
-            </div>
-        </div>
-    """, unsafe_allow_html=True)
+        <div style="display:flex; align-items:center; justify-content:center; gap:10px">
+            <img src='{logo_url}' style='height:85px;' />
+            <h2 style='text-align:left; color:#5865F2'>SNAP<br/>CLASS</h1>
+        </div>   
+                
+                """, unsafe_allow_html=True)
